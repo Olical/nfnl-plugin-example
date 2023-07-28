@@ -6,7 +6,7 @@ local assert = require("luassert.assert")
 local core = require("nfnl-plugin-example.nfnl.core")
 local function _2_()
   local function _3_()
-    return assert.equals(1, core.first({1, 2, 3}))
+    return assert.equals(1, core.first({1, 2, 3, 4, 5}))
   end
   it("gets the first value", _3_)
   local function _4_()

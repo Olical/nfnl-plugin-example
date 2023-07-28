@@ -7,7 +7,7 @@
   (fn []
     (it "gets the first value"
         (fn []
-          (assert.equals 1 (core.first [1 2 3]))))
+          (assert.equals 1 (core.first [1 2 3 4 5]))))
 
     (it "returns nil for empty lists or nil"
         (fn []
